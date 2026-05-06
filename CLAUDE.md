@@ -143,6 +143,39 @@ See `GPU_SETUP.md` for complete setup instructions.
 └── signals/                    # Cached attack signals
 ```
 
+## Git Workflow
+
+**Always commit and push changes to GitHub after completing work.** This ensures no progress is lost and maintains a clean history.
+
+```bash
+# Check status before committing
+git status
+
+# Stage changes
+git add -A
+
+# Commit with descriptive message
+git commit -m "type: brief description
+
+- Change 1
+- Change 2
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+
+# Push to GitHub
+git push
+```
+
+**Commit message types:**
+- `feat:` - New feature or functionality
+- `fix:` - Bug fix or error correction
+- `docs:` - Documentation changes
+- `chore:` - Maintenance tasks (dependencies, config updates)
+- `refactor:` - Code restructuring without behavior change
+- `test:` - Test-related changes
+
+**GitHub repository:** https://github.com/sieuanhta/ml-privacy-meter-local
+
 ## Extending the Tool
 
 **New datasets:**
