@@ -7,3 +7,4 @@ exp_*
 .privacy_meter_venv/
 .ipynb_checkpoints/
 note.txt
+venv_gpu/
